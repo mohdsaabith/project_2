@@ -1,0 +1,108 @@
+body{
+    font-family: 'Montserrat' sans-serif;
+}
+
+.content-banner{
+    color: #ffffff;
+    background-image: url(/assets/images/home/1.png);
+    min-height:775px;
+    height: 100%;
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    padding-top:125px ;
+}
+
+.content-banner:before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.content-banner .first-title{
+    font-size: 50px;
+    font-weight: 450;
+    line-height: 1.2;
+    position: relative;
+    z-index: 2;
+    margin: 0px 0px 12px;
+}
+
+.content-banner .banner-des{
+    line-height: 150%;
+    letter-spacing: 0;
+    position: relative;
+    z-index: 2;
+    font-weight: 400;
+    margin-top: 0;
+
+}
+
+.banner-btn{
+    text-decoration: none;
+    padding: 1px 40px;
+    z-index: 1;
+    margin: 30px auto 25px;
+    line-height: 56px;
+    position: relative;
+    border: 1px solid #fff;
+    border-radius: 57px;
+    height: 57px;
+    font-size: 16px;
+    background-color: #ffffff;
+    display: inline-block;
+    transition: 0.3;
+    color: #053964;
+    text-align: center;
+}
+
+.banner-btn:hover{
+   color: black;
+}
+
+.header{
+    position: relative;
+    width: 100%;
+}
+
+.header-inner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    background-color: transparent;
+}
+
+.banner-con{
+    margin-top: 10%;
+    margin-left: 5%;
+    
+}
+
+.nav-item .nav-link{
+    display: block;
+    line-height: 40px;
+    font-size: 19px;
+    font-weight: 500;
+    color: #fff;
+    margin-right: 1.2rem;
+
+}
+
+.header-btn{
+    border-radius: 30px;
+    color: #053964;
+    background-color: #fff;
+    border: none;
+    font-weight: 400;
+    outline: none;
+    font-size: 15px;
+    height: 2.9rem;
+    width: 9rem;
+    align-items: center;
+}
