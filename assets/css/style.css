@@ -1,6 +1,6 @@
 body{
     font-family: 'Montserrat' sans-serif;
-    text-decoration: none;
+   
 
 }
 
@@ -17,7 +17,7 @@ body{
     }
     .nav-item >  .nav-link{
         color: black !important;
-        .logo{
+        .navbar-brand{
             color: #000;
             font-weight: 600;
         }
@@ -197,25 +197,7 @@ section{
     
 }
 
-a {
-    text-decoration: none;
-}
 
-a, a:hover, a:active, a:visited, a:focus {
-    text-decoration: none;
-}
-
-a {
-    color: #007bff;
-    text-decoration: none;
-    background-color: transparent;
-}
-
-a:-webkit-any-link {
-    color: -webkit-link;
-    cursor: pointer;
-    text-decoration: underline;
-}
 
 .card-hover-text {
     position: absolute;
@@ -227,3 +209,145 @@ a:-webkit-any-link {
     font-weight: 700;
     font-family: Poppins,sans-serif;
 }
+
+
+
+.work-experience-main-container {
+    width: 70%;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.work-experience-col-1 {
+    max-width: 35%;
+}
+
+p.work-experience-text {
+    font-size: 1.5626vw;
+    font-weight: 500;
+    font-family: Poppins;
+    color: #000;
+}
+
+.work-countries-col, .work-ecom-expert-col {
+    border-bottom: 2px solid #e0dfdf63;
+    padding: 5%;
+}
+
+h4.work-service-value {
+    font-size: 3.0833vw;
+    font-weight: 600;
+    font-family: Poppins,sans-serif;
+    color: #08518b;
+}
+
+h3.work-experience-value {
+    font-size: 10.416vw;
+    font-weight: 600;
+    font-family: Poppins,sans-serif;
+    color: #08518b;
+}
+
+p.work-service-text {
+    font-size: 1.145vw;
+    font-weight: 500;
+    font-family: Poppins;
+    color: #000;
+}
+
+
+.work-countries-col, .work-ecom-expert-col {
+    border-bottom: 2px solid #e0dfdf63;
+    padding: 5%;
+}
+
+.work-ERP-col, .work-project-col {
+    padding: 5%;
+}
+
+.work-ecom-expert-col, .work-project-col {
+    border-right: 2px solid #e0dfdf63;
+}
+
+
+
+section.odoo_partner {
+    margin-top: 130px;
+    position: relative;
+    padding: 78px 0;
+    overflow: hidden;
+}
+
+.wrap {
+    padding: 0 120px;
+}
+
+.odoo_background {
+    padding: 92px;
+}
+
+.mb-auto, .my-auto {
+    margin-bottom: auto!important;
+}
+
+.odoo_partner_elements {
+    position: relative;
+}
+
+img.dashboard_element {
+    position: relative;
+    top: 136px;
+    right: -128px;
+    z-index: 10;
+    width: 100%;
+}
+
+.odoo_background h2 {
+    margin-top: 21px;
+    font-size: 42px;
+}
+
+.card.form_card h2, .odoo_background h2, section.technaureus_recognized h2 {
+    font-family: Gilroy,sans-serif;
+    font-weight: 700;
+}
+
+.odoo_background h2 span {
+    color: #714b67;
+}
+
+.odoo_p{
+    color: #606060 !important;
+    font-size: 16px !important;
+    line-height: 1.7;
+}
+
+.products p {
+    max-width: 80%;
+    margin: auto auto 30px;
+}
+
+section.products {
+    margin-top: 150px;
+    position: relative;
+}
+
+img.product_element_1 {
+    position: absolute;
+    top: -63px;
+    left: 146px;
+    width: 80px;
+    -webkit-animation: 1s infinite alternate mover;
+    animation: 1s infinite alternate mover;
+}
+
+img.product_element_2 {
+    position: absolute;
+    right: 103px;
+    top: 90px;
+    width: 47px;
+    -webkit-animation: 1s infinite alternate mover;
+    animation: 1s infinite alternate mover;
+}
+
