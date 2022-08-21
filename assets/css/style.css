@@ -364,3 +364,161 @@ section.clients, section.form, section.technaureus_recognized {
     margin-top: 17px;
     width: 100%;
 }
+
+section.form {
+    margin-top: 130px;
+}
+
+.card.form_card {
+    padding: 65px;
+    border: none;
+    border-radius: 36px;
+    box-shadow: 0 0 25px 0 #00000021;
+}
+
+.card.form_card h2 {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.card.form_card input {
+    padding: 9px 0;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #d7d7d7;
+    margin-top: 20px;
+    width: 90%;
+}
+
+.input-label {
+    display: block;
+    position: relative;
+}
+
+.placeholder-text {
+    position: absolute;
+    left: -2px;
+    top: 30px;
+    padding: 0 4px;
+    color: #848484;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    transform-origin: top left;
+    transition: .25s ease;
+}
+
+button.more_dtls.form_btn {
+    margin-top: 32px;
+    padding: 12px 34px;
+    font-size: 19px;
+}
+
+section.form .border-left {
+    border-left: 1px solid #707070 !important;
+}
+
+.form_btns {
+    margin-top: 53px;
+}
+
+.form_contact {
+    margin-top: 25px;
+}
+
+.form_contact.phone_form {
+    margin-top: 25px;
+}
+
+.phone_form h6 {
+    line-height: 1.7;
+    margin-top: 0;
+    color: #000;
+}
+.form_contact h6 {
+    font-size: 19px;
+    font-weight: 600;
+    margin-top: 6px;
+    color: #000;
+}
+
+
+
+
+
+
+
+footer {
+    margin-bottom: 38px;
+    position: relative;
+    margin-top: 90px;
+    
+}
+
+img.ftr_element {
+    position: absolute;
+    right: 99px;
+    top: 96px;
+    -webkit-animation: mover 1s infinite alternate;
+    animation: mover 1s infinite alternate;
+    width: 82px;
+    -webkit-animation: mover 1s infinite alternate;
+    animation: mover 1s infinite alternate;
+}
+
+.footer {
+    border-color: #707070 !important;
+    padding: 31px 0;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    text-decoration: none;
+}
+
+footer ul li {
+    line-height: 2.5;
+    color: #858585 !important;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+footer h6 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #000;
+    margin-top: 42px;
+    margin-bottom: 22px;
+}
+
+.company {
+    margin-top: 10px;
+}
+
+.company p {
+    font-size: 16px !important;
+    padding-left: 13px;
+}
+
+.company p a {
+    color: #606060;
+}
+
+svg:not(:root).svg-inline--fa {
+    overflow: visible;
+}
+
+
+.svg-inline--fa.fa-w-12 {
+    width: 0.75em;
+}
+
+.svg-inline--fa {
+    display: inline-block;
+    font-size: inherit;
+    height: 1em;
+    overflow: visible;
+    vertical-align: -0.125em;
+}
