@@ -351,3 +351,16 @@ img.product_element_2 {
     animation: 1s infinite alternate mover;
 }
 
+
+section.clients, section.form, section.technaureus_recognized {
+    margin-top: 130px;
+}
+
+.client_card {
+    border: 1px solid #bebebe;
+    padding: 41px 29px;
+    background: #fff;
+    border-radius: 12px;
+    margin-top: 17px;
+    width: 100%;
+}
