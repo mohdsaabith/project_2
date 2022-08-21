@@ -29,7 +29,7 @@ body{
 
 .content-banner{
     color: #ffffff;
-    background-image: url(/assets/images/home/1.png);
+    background-image: url("./assets/images/home/1.png");
     min-height:775px;
     height: 100%;
     position: relative;
@@ -491,6 +491,7 @@ footer h6 {
     color: #000;
     margin-top: 42px;
     margin-bottom: 22px;
+    text-decoration: none;
 }
 
 .company {
