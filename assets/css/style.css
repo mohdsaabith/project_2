@@ -279,17 +279,12 @@ section.odoo_partner {
     overflow: hidden;
 }
 
-.wrap {
-    padding: 0 120px;
-}
 
 .odoo_background {
     padding: 92px;
 }
 
-.mb-auto, .my-auto {
-    margin-bottom: auto!important;
-}
+
 
 .odoo_partner_elements {
     position: relative;
@@ -327,6 +322,17 @@ img.dashboard_element {
     max-width: 80%;
     margin: auto auto 30px;
 }
+
+.products_card {
+    border: none;
+    padding: 28px;
+    background: #fff;
+    border-radius: 36px;
+    box-shadow: 0 0 20px 0 #00000021;
+    width: 100%;
+    height: 100%;
+}
+
 
 section.products {
     margin-top: 150px;
@@ -474,14 +480,19 @@ img.ftr_element {
 footer ul {
     list-style-type: none;
     padding: 0;
-    text-decoration: none;
+    text-decoration: none !important;
 }
+
 
 footer ul li {
     line-height: 2.5;
     color: #858585 !important;
     font-size: 16px;
     font-weight: 400;
+    text-decoration: none !important;
+}
+
+footer ul li a{
     text-decoration: none;
 }
 
@@ -491,7 +502,8 @@ footer h6 {
     color: #000;
     margin-top: 42px;
     margin-bottom: 22px;
-    text-decoration: none;
+
+    
 }
 
 .company {
