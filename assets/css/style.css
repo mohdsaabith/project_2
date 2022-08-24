@@ -1,8 +1,14 @@
-body{
-    font-family: 'Montserrat' sans-serif;
-   
-
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
 }
+
+
 
 @media only screen and(min-width:1200px) {
     .nav-item >  .nav-link{
@@ -29,7 +35,7 @@ body{
 
 .content-banner{
     color: #ffffff;
-    background-image: url(../assets/images/home/1.webp);
+    background-image: url(/assets/images/home/1.webp);
     min-height:775px;
     height: 100%;
     position: relative;
@@ -174,9 +180,53 @@ body{
     text-decoration: none;
 }
 
-section{
-    background-color: white;
-    padding: 4rem 0rem 4rem;
+.border-top-cards::before, .borders::before {
+    top: -1px;
+    left: -1px;
+}
+
+.border-top-cards::after, .border-top-cards::before, .borders::after, .borders::before {
+    background-color: #fff;
+    content: "";
+    display: block;
+    height: 20px;
+    position: absolute;
+    width: 20px;
+}
+
+.border-top-cards::after, .borders::after {
+    bottom: -1px;
+    left: -1px;
+}
+
+section.service {
+    margin-top: 85px;
+}
+
+.border-top-cards::after, .border-top-cards::before, .borders::after, .borders::before {
+    background-color: #fff;
+    content: "";
+    display: block;
+    height: 20px;
+    position: absolute;
+    width: 20px;
+}
+
+.service_card p {
+    line-height: 1.2;
+    font-size: 16px!important;
+    margin-top: 11px;
+    color: #606060 !important;
+    font-size: 16px !important;
+    line-height: 1.7;
+}
+
+section.about {
+    margin-top: 58px;
+}
+
+section.service {
+    margin-top: 85px;
 }
 
 .borders {
@@ -272,7 +322,7 @@ p.work-service-text {
 
 
 
-section.odoo_partner {
+.odoo_partner {
     margin-top: 130px;
     position: relative;
     padding: 78px 0;
@@ -290,7 +340,7 @@ section.odoo_partner {
     position: relative;
 }
 
-img.dashboard_element {
+.dashboard_element {
     position: relative;
     top: 136px;
     right: -128px;
@@ -334,7 +384,7 @@ img.dashboard_element {
 }
 
 
-section.products {
+.products {
     margin-top: 150px;
     position: relative;
 }
@@ -358,9 +408,7 @@ img.product_element_2 {
 }
 
 
-section.clients, section.form, section.technaureus_recognized {
-    margin-top: 130px;
-}
+
 
 .client_card {
     border: 1px solid #bebebe;
@@ -371,9 +419,7 @@ section.clients, section.form, section.technaureus_recognized {
     width: 100%;
 }
 
-section.form {
-    margin-top: 130px;
-}
+
 
 .card.form_card {
     padding: 65px;
@@ -420,9 +466,7 @@ button.more_dtls.form_btn {
     font-size: 19px;
 }
 
-section.form .border-left {
-    border-left: 1px solid #707070 !important;
-}
+
 
 .form_btns {
     margin-top: 53px;
@@ -450,8 +494,29 @@ section.form .border-left {
 
 
 
+.testimonial{
+    position: relative;
+    max-width: 900px;
+    width: 100%;
+    color: #053964;
+
+}
+
+.testimonial .testi-img{
+    height: 170px;
+    width: 170px;
+    object-fit: cover;
+    border-radius:50% ;
+}
 
 
+
+.testimonial h2{
+    font-family: "Gilroy", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+}
 
 
 footer {
@@ -461,16 +526,6 @@ footer {
     
 }
 
-img.ftr_element {
-    position: absolute;
-    right: 99px;
-    top: 96px;
-    -webkit-animation: mover 1s infinite alternate;
-    animation: mover 1s infinite alternate;
-    width: 82px;
-    -webkit-animation: mover 1s infinite alternate;
-    animation: mover 1s infinite alternate;
-}
 
 .footer {
     border-color: #707070 !important;
@@ -534,4 +589,13 @@ svg:not(:root).svg-inline--fa {
     height: 1em;
     overflow: visible;
     vertical-align: -0.125em;
+}
+
+
+.form_btns {
+    margin-top: 53px;
+}
+
+.form_contact {
+    margin-top: 25px;
 }
