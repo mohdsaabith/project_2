@@ -10,28 +10,7 @@ body {
 
 
 
-@media only screen and(min-width:1200px) {
-    .nav-item >  .nav-link{
-        padding: 5px 20px!important;
-        display: block;
-    }
-}
 
-@media only screen and(max-width:992px) {
-    .header-inner{
-        background-color: white!important;
-    }
-    .nav-item >  .nav-link{
-        color: black !important;
-        .navbar-brand{
-            color: #000;
-            font-weight: 600;
-        }
-        .content-banner .first-title{
-            font-size: 30px !important;
-        }
-    }
-}
 
 .content-banner{
     color: #ffffff;
@@ -466,18 +445,144 @@ button.more_dtls.form_btn {
     font-size: 19px;
 }
 
+section.form {
+    margin-top: 130px;
+}
 
+.card.form_card {
+    padding: 65px;
+    border: none;
+    border-radius: 36px;
+    box-shadow: 0 0 25px 0 #00000021;
+}
+
+.card.form_card h2 {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.card.form_card input {
+    padding: 9px 0;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #d7d7d7;
+    margin-top: 20px;
+    width: 90%;
+}
+
+.input-label {
+    display: block;
+    position: relative;
+}
+
+.placeholder-text {
+    position: absolute;
+    left: -2px;
+    top: 30px;
+    padding: 0 4px;
+    color: #848484;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    transform-origin: top left;
+    transition: .25s ease;
+}
+
+button.more_dtls.form_btn {
+    margin-top: 32px;
+    padding: 12px 34px;
+    font-size: 19px;
+}
+
+section.form .border-left {
+    border-left: 1px solid #707070 !important;
+}
 
 .form_btns {
     margin-top: 53px;
+}
+
+button.whats_app.form_wtz {
+    padding: 12px 20px;
+}
+
+button.whats_app span {
+    display: flex;
+    align-items: center;
+}
+
+svg:not(:root).svg-inline--fa {
+    overflow: visible;
+}
+
+.svg-inline--fa.fa-w-14 {
+    width: 0.875em;
+}
+button.whats_app span svg {
+    font-size: 26px;
+    margin-right: 7px;
+}
+
+.svg-inline--fa {
+    display: inline-block;
+    font-size: inherit;
+    height: 1em;
+    overflow: visible;
+    vertical-align: -0.125em;
+}
+
+button.whats_app span p {
+    margin: 0;
+    color: #fff !important;
+    font-size: 13px !important;
+    line-height: 1.7;
+}
+
+button.call_us {
+    border: 1px solid #fff;
+    border-radius: 57px;
+    font-weight: 500;
+    font-size: 19px;
+    background: linear-gradient(0deg, #0A72C6 0%, #084B81 100%);
+    color: #fff;
+    margin-left: 16px;
+}
+
+button.call_us.form_call {
+    padding: 12px 20px;
+}
+
+button.call_us span {
+    display: flex;
+    align-items: center;
+}
+
+
+button.call_us span p {
+    margin: 0;
+    color: #fff !important;
+    font-size: 13px !important;
 }
 
 .form_contact {
     margin-top: 25px;
 }
 
-.form_contact.phone_form {
-    margin-top: 25px;
+.form_contact_mail a {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.form_contact img {
+    margin-right: 25px;
+}
+
+.form_contact h6 {
+    font-size: 19px;
+    font-weight: 600;
+    margin-top: 6px;
+    color: #000;
 }
 
 .phone_form h6 {
@@ -485,11 +590,29 @@ button.more_dtls.form_btn {
     margin-top: 0;
     color: #000;
 }
-.form_contact h6 {
-    font-size: 19px;
-    font-weight: 600;
-    margin-top: 6px;
+
+.phone_form h6 a {
     color: #000;
+    text-decoration: none;
+}
+
+.form_contact.phone_form {
+    margin-top: 25px;
+}
+
+.form_contact {
+    margin-top: 25px;
+}
+
+.form_social img {
+    margin-left: 14px;
+    margin-top: 7px;
+    transition-duration: .3s;
+    transition-property: transform;
+}
+
+.form_contact_mail a{
+    text-decoration: none;
 }
 
 
@@ -555,6 +678,65 @@ section.testimonial p {
     flex-direction: column;
     align-items: center;
 }
+
+section.testimonial .swiper-button-prev.swiper-arrow-prev-btn {
+    right: 0;
+    top: 50%;
+    z-index: 10;
+    color: #000 !important;
+    font-weight: 600;
+}
+
+section.testimonial .swiper-button-next.swiper-arrow-next-btn {
+    
+    top: 50%;
+    z-index: 10;
+    color: #858585 !important;
+    font-weight: 600;
+}
+
+.swipper-btn{
+    border-radius: 50%;
+    transform: translateY(30px);
+    transition: 0.2s;
+}
+
+.swipper-btn::after,
+.swipper-btn::before{
+    font-size: 20px;
+}
+
+img.testi_ele_1 {
+    -webkit-animation: mover 1s infinite alternate;
+    animation: mover 1s infinite alternate;
+}
+
+img.testi_ele_1 {
+    -webkit-animation: mover 1s infinite alternate;
+    animation: mover 1s infinite alternate;
+    width: 82px;
+}
+img.testi_ele_1 {
+    position: absolute;
+    right: 25%;
+    top: -115px;
+}
+
+img.testi_ele_2 {
+    -webkit-animation: mover 1s infinite alternate;
+    animation: mover 1s infinite alternate;
+    width: 82px;
+    -webkit-animation: mover 1s infinite alternate;
+    animation: mover 1s infinite alternate;
+}
+
+img.testi_ele_2 {
+    position: absolute;
+    top: 28%;
+    left: 11%;
+}
+
+
 
 
 footer {
@@ -647,4 +829,41 @@ svg:not(:root).svg-inline--fa {
 
 .form_contact {
     margin-top: 25px;
+}
+
+
+
+
+@media only screen and(min-width:1200px) {
+    .nav-item >  .nav-link{
+        padding: 5px 20px!important;
+        display: block;
+    }
+}
+
+@media only screen and(max-width:992px) {
+    .header-inner{
+        background-color: white!important;
+    }
+    .nav-item >  .nav-link{
+        color: black !important;
+        .navbar-brand{
+            color: #000;
+            font-weight: 600;
+        }
+        .content-banner .first-title{
+            font-size: 30px !important;
+        }
+    }
+}
+
+
+@media screen and  (max-width: 768px){
+    .swipper-btn{
+        display: none;
+    }
+
+    section.testimonial p{
+        padding: 0 20px;
+    }
 }
