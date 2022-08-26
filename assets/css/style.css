@@ -910,3 +910,16 @@ svg:not(:root).svg-inline--fa {
     height: 50vh;
 }
 }
+
+@media screen and  (max-width: 414px){
+    .swipper-btn{
+        display: none;
+    }
+
+    section.testimonial p{
+        padding: 0 20px;
+    }
+    .capt-img{
+    height: 25vh;
+}
+}
