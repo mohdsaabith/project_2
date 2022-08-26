@@ -2,6 +2,7 @@ var swiper = new Swiper(".mySwiper", {
         slidesPerView: 1,
         grapCursor:true,
         loop: true,
+        dots:true,
         pagination: {
           el: ".swiper-pagination",
           clickable: true,

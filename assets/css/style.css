@@ -232,8 +232,8 @@ section.service {
     z-index: 0;
 }
 
-.carousel{
-    height: 100vh;
+carousel{
+    height: 100%;
 }
 
 .capt-img{

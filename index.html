@@ -14,6 +14,10 @@
     <link rel="stylesheet" href="/assets/bootstrap/bootstrap-5.2.0-dist/css/bootstrap.css">
     
     <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
+
+    <!--Owl-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     
    
     <link
@@ -1063,7 +1067,22 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="/assets/js/testimonial.js"></script>
 
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" ></script>
+
+    <script>
+        $(document).ready(function(){
+            $(".owl-carousel").owlCarousel({
+            items:1,
+            loop:true,
+            nav:true,
+            dots:true,
+            autoplay:true,
+            autoplaySpeed:1000,
+            smartSpeed:1500,
+            autoplayHoverPause:true,
+            )};
+        });
+    </script>
 
 </body>
 </html>
