@@ -237,7 +237,7 @@ section.service {
 }
 
 .capt-img{
-    height: 100%;
+    height: 100vh;
 }
 
 button.common_btn.bnr_btn {
@@ -906,4 +906,7 @@ svg:not(:root).svg-inline--fa {
     section.testimonial p{
         padding: 0 20px;
     }
+    .capt-img{
+    height: 50vh;
+}
 }
