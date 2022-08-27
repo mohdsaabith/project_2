@@ -898,7 +898,7 @@ svg:not(:root).svg-inline--fa {
 }
 
 
-@media screen and  (max-width: 768px){
+@media screen and  (max-width: 767px){
     .swipper-btn{
         display: none;
     }
@@ -906,9 +906,14 @@ svg:not(:root).svg-inline--fa {
     section.testimonial p{
         padding: 0 20px;
     }
+    
     .capt-img{
     height: 50vh;
-}
+    }
+
+    .odoo_background h2, section.about h2 {
+    font-size: 42px;
+    }
 }
 
 @media screen and  (max-width: 414px){
