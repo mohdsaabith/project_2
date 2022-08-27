@@ -872,6 +872,23 @@ svg:not(:root).svg-inline--fa {
 }
 
 
+@media only screen and(min-width:1500px) {
+    .odoo_background {
+    padding: 54px;
+    }
+}
+
+@media only screen and(min-width:1400px) {
+    .odoo_logo {
+    width: 100px;
+    }
+}
+
+@media only screen and(min-width:1250px) {
+    .odoo_background {
+    padding: 46px;
+    }
+}
 
 
 @media only screen and(min-width:1200px) {
@@ -879,9 +896,24 @@ svg:not(:root).svg-inline--fa {
         padding: 5px 20px!important;
         display: block;
     }
+
+    img.dashboard_element {
+    position: relative;
+    top: 123px;
+    right: 0;
+    z-index: 10;
+    width: 400px;
+    }
 }
 
-@media only screen and(max-width:992px) {
+@media only screen and(min-width:1250px) {
+    .odoo_background {
+    padding: 0px;
+    }
+}
+
+
+@media only screen and(max-width:991px) {
     .header-inner{
         background-color: white!important;
     }
@@ -895,6 +927,32 @@ svg:not(:root).svg-inline--fa {
             font-size: 30px !important;
         }
     }
+
+    .odoo_logo {
+    width: 100px;
+    }   
+
+    .odoo_background {
+    padding: 0 47px;
+    }
+    .odoo_background h2 {
+    font-size: 24px!important;
+    }
+
+    .odoo_background p {
+    color: #606060 !important;
+    font-size: 15px !important;
+    line-height: 1.7;
+    }
+
+    img.dashboard_element {
+    position: initial!important;
+    padding-top: 49px!important;
+    display: block!important;
+    margin: auto!important;
+    width: 100%!important;
+    }
+    
 }
 
 
@@ -906,7 +964,7 @@ svg:not(:root).svg-inline--fa {
     section.testimonial p{
         padding: 0 20px;
     }
-    
+
     .capt-img{
     height: 50vh;
     }
@@ -914,6 +972,11 @@ svg:not(:root).svg-inline--fa {
     .odoo_background h2, section.about h2 {
     font-size: 42px;
     }
+
+    .odoo_background, .service_content {
+    text-align: center;
+    }
+
 }
 
 @media screen and  (max-width: 414px){
