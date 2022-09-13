@@ -222,6 +222,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-6">
                    
                         <div class="service_card borders ">
+                           
                             <span class="card-hover-text">01</span>
                             
                             <img src="./assets/images/service-image/s1.png" alt="business consulting" class="img-fluid lazyloaded" >
@@ -232,6 +233,7 @@
                             <p>
                                 Assist you to weave out the best
                             </p>
+                            
                         </div>
                    
                 </div>
@@ -458,15 +460,18 @@
 
 <!--Product Sections strat's here-->
 <section class="products text-center">
-    <div class="container wrap">
+    <div class="container wrap product_con">
         <h2>Products</h2>
         <p>We pride ourselves on creating programs and products that have vital importance and great demand in the world
             market. The efficiency and intelligence of our dedicated teams, successful in developing the most demanded
             product of the market, resulted in 200+ international clients with Technaureus info solution.
         </p>
-        <img  class="product_element_1 lazyloaded" src="./assets/images/products/element1.png">
-        <img  class="product_element_2 lazyloaded" src="./assets/images/products/element2.png">
-
+        <div class="product_element_img">
+            <img  class="product_element_1 lazyloaded product_ele_img" src="./assets/images/products/element1.png">
+        </div>
+        <div class="product_element_img">
+            <img  class="product_element_2 lazyloaded product_ele_img" src="./assets/images/products/element2.png">
+        </div>
         <div class="row">
             
             <div class="col-lg-4 col-md-6 mb-4">
@@ -1069,20 +1074,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" ></script>
 
-    <script>
-        $(document).ready(function(){
-            $(".owl-carousel").owlCarousel({
-            items:1,
-            loop:true,
-            nav:true,
-            dots:true,
-            autoplay:true,
-            autoplaySpeed:1000,
-            smartSpeed:1500,
-            autoplayHoverPause:true,
-            )};
-        });
-    </script>
+   
 
 </body>
 </html>

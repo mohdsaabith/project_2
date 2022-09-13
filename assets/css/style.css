@@ -538,6 +538,26 @@ section.form .border-left {
     border-left: 1px solid #707070 !important;
 }
 
+.border-top-cards::after, .border-top-cards::before, .borders::after, .borders::before {
+    background-color: #fff;
+    content: "";
+    display: block;
+    height: 20px;
+    position: absolute;
+    width: 20px;
+}
+
+.card-hover-text {
+    position: absolute;
+    right: 1px;
+    font-size: 196px!important;
+    top: -52px;
+    color: #ffffff2b;
+    z-index: 0;
+    font-weight: 700;
+    font-family: Poppins,sans-serif;
+}
+
 .form_btns {
     margin-top: 53px;
 }
@@ -792,14 +812,14 @@ footer {
     padding: 31px 0;
 }
 
-footer ul {
+.footer ul {
     list-style-type: none;
     padding: 0;
     text-decoration: none !important;
 }
 
 
-footer ul li {
+.footer ul li {
     line-height: 2.5;
     color: #858585 !important;
     font-size: 16px;
@@ -807,11 +827,11 @@ footer ul li {
     text-decoration: none !important;
 }
 
-footer ul li a{
+.footer ul li a{
     text-decoration: none;
 }
 
-footer h6 {
+.footer h6 {
     font-size: 25px;
     font-weight: 600;
     color: #000;
@@ -862,6 +882,13 @@ svg:not(:root).svg-inline--fa {
     vertical-align: -0.125em;
 }
 
+footer ul li {
+    line-height: 2.5;
+    color: #858585 !important;
+    font-size: 16px;
+    font-weight: 400;
+}
+
 
 .form_btns {
     margin-top: 53px;
@@ -869,6 +896,73 @@ svg:not(:root).svg-inline--fa {
 
 .form_contact {
     margin-top: 25px;
+}
+
+.bg-instagram {
+    width: 35px;
+    height: 35px;
+    background: url('../images/css_sprites.png') -10px -62px;
+}
+
+.bg-facebook {
+    width: 32px;
+    height: 32px;
+    background: url('../images/css_sprites.png') -124px -10px;
+}
+
+.bg-twitter {
+    width: 33px;
+    height: 33px;
+    background: url('../images/css_sprites.png') -69px -62px;
+}
+
+.bg-linked_in {
+    width: 35px;
+    height: 32px;
+    background: url('../images/css_sprites.png') -69px -10px;
+}
+
+.bg-youtube {
+    width: 39px;
+    height: 32px;
+    background: url('../images/css_sprites.png') -10px -10px;
+}
+
+.ftr-social-media-two a div {
+    margin-right: 14px;
+}
+
+.page-link {
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #084f88;
+    background-color: #fff;
+    font-size: 17px;
+    border: 1px solid #fff
+}
+
+button.whats_app span {
+    display: flex;
+    align-items: center
+}
+
+button.whats_app span i {
+    font-size: 26px;
+    margin-right: 7px
+}
+
+button.whats_app span svg {
+    font-size: 26px;
+    margin-right: 7px
+}
+
+button.whats_app span p {
+    margin: 0;
+    color: #fff !important;
+    font-size: 13px !important
 }
 
 
@@ -977,6 +1071,10 @@ svg:not(:root).svg-inline--fa {
     text-align: center;
     }
 
+    
+    section.clients, section.form, section.products, section.technaureus_recognized {
+    margin-top: 66px;
+    }
 }
 
 @media screen and  (max-width: 414px){
@@ -989,5 +1087,6 @@ svg:not(:root).svg-inline--fa {
     }
     .capt-img{
     height: 25vh;
+    }
 }
-}
+
